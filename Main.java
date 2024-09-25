@@ -10,5 +10,6 @@ public class Main {
         RewardValue milesReward = new RewardValue(50000, true); // Miles reward
         System.out.println("Miles Reward: " + milesReward.getMilesValue() + " miles");
         System.out.println("Equivalent in Cash: $" + milesReward.getCashValue());
+        
     }
 }
